@@ -26,9 +26,20 @@ func main(){
     let redHeadDuck = RedHeadDuck()
     let rubberDuck = RubberDuck()
 
+    print("------------------------------------")
     prints(duck: realGreenDuck)
+    print("------------------------------------")
     prints(duck: redHeadDuck)
+    print("------------------------------------")
+    prints(duck: rubberDuck) 
+    print("------------------------------------")
+    print("change fly behavior for rubber duck ....")
+
+    rubberDuck.setFlyBehavior(fly: FlyWithWings())
+
     prints(duck: rubberDuck)
+
+    print("------------------------------------")
 }
 
 main()

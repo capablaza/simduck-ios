@@ -23,4 +23,12 @@ public class Duck{
     }   
     
     public func display(){}
+
+    func setFlyBehavior(fly: FlyBehavior){
+        self.flyBehavior = fly
+    }
+
+    func setQuackBehavior(quack: QuackBehavior){
+        self.quackBehavior = quack
+    }
 }
