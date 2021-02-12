@@ -9,6 +9,10 @@ public class Duck{
     public func swim(){
         print("I can swim!")
     }
+
+    public func fly(){
+        print("I can fly")
+    }
     
     public func display(){}
 }

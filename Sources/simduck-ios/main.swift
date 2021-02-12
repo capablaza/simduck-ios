@@ -3,6 +3,7 @@ import Foundation
 func prints(duck:Duck){
     duck.swim()
     duck.quack()
+    duck.fly()
     duck.display()
 }
 
