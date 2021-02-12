@@ -2,22 +2,22 @@ import Foundation
 
 func prints(duck:RealGreenDuck){
     duck.swim()
-    duck.quack()
-    duck.fly()
+    duck.performQuack()
+    duck.performFly()
     duck.display()
 }
 
 func prints(duck:RedHeadDuck){
     duck.swim()
-    duck.quack()
-    duck.fly()
+    duck.performQuack()
+    duck.performFly()
     duck.display()
 }
 
 func prints(duck:RubberDuck){
     duck.swim()
-    duck.quack()
-    duck.fly()
+    duck.performQuack()
+    duck.performFly()
     duck.display()
 }
 
